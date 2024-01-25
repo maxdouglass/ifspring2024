@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Ghostbusters';
+    src: url('/fonts/GHOSTBUS.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding-left: 1%;
+    font-family: 'Ghostbusters', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+main {
+    padding-left: 1%;
+}
+
+a:link, a:visited, h1, h2{
+    color: red;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 4rem;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.quotes{
+    font-size: 20px;
+    padding-bottom: 2rem;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#quotes1, #quotes2{
+    border-bottom: 1.5px solid white;
+}
+
+li{
+    margin-bottom: 1rem;
+}
+
+.speaker {
+    font-weight: bold;
+    color: darkred;
+}
+
+.scene-description {
+    font-style: italic;
+    color: white;
+}
