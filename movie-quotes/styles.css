@@ -1,6 +1,14 @@
+@font-face {
+    font-family: 'Ghostbusters';
+    src: url('/fonts/GHOSTBUS.woff2') format('woff2'),
+        url('/fonts/GHOSTBUS4.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     padding-left: 1%;
-    font-family: Ghostbusters;
+    font-family: 'Ghostbusters', sans-serif;
     color: white;
     background-color: black;
 }
