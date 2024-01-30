@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Queen-Fancy';
+    src: url('fonts/fleurish.ttf');
+}
+
+@font-face {
+    font-family: 'Queen-Basic';
+    src: url('fonts/BODONI.TTF');
+}
+
+body{
+    font-family: 'Queen-Basic';
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    height: 25%;
+    background-color: #19141A;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+a:link, a:visited, header{
+    color: white;
+    font-size: 26px;
+}
+
+
+
+.info{
+    margin-right: 3%;
+}
+
+main{
+    font-size: 20px;
+    padding-left: 3%;
+}
+
+img{
+    margin-right: 2%;
+    height: 15%;
+    width: 15%;
+}
+
+.lyrics-section{
+    margin-bottom: 10vh;
+    padding-bottom: 3vh;
+    border-bottom: 1.5px solid #19141A;
+}
+
+.section-title{
+    font-size: 34px;
+    font-family: "Queen-Fancy";
+}
