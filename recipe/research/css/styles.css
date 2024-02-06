@@ -1,0 +1,66 @@
+html{
+    font-family: 'Playfair Display', serif;
+    background-color: #D2B48C;
+    color: #3E3937;
+    font-size: 16pt;
+}
+
+body{
+    margin: 5%;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    width: 25%;
+    height: 50%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+
+section{
+    background-color: #FFF4E1;
+    padding: 1% 4%;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+h1{
+    font-weight: 800;
+    margin: 0;
+    font-size: 30pt;
+}
+
+li{
+    margin-bottom: 0.7rem;
+}
+
+#images{
+    padding: 0;
+    padding-left: 7.5%;
+    width: 100%;
+    background-color: #D2B48C;
+    display: flex;
+    margin: 2rem 0;
+}
+
+.ingredients-instructions-container{
+    display: flex;
+}
+
+.instructions-subsection{
+    padding: 0;
+    width: 60%;
+}
+
+.ingredients-subsection{
+    width: 40%;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
