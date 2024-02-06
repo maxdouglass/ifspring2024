@@ -9,6 +9,7 @@ p{
     font-size: 20px;
     margin: 0;
     margin-bottom: 0.4em;
+    color: #00B7C3;    
 }
 header{
     margin-bottom: 2rem;
@@ -83,5 +84,11 @@ section{
 #text_transform_capitalize{
     text-transform: capitalize;
 }
+
+.property-value{
+    color: #FAFAFA;
+}
+
+
 
 
