@@ -71,12 +71,12 @@ a div{
 }
 
 /* 14 */
-#game-of-thrones li:last-of-type::after{
+#game-of-thrones section.seasons li:last-of-type::after{
     content: "*";
 }
 
 /* 15 */
-#game-of-thrones ul::after{
+#game-of-thrones section.seasons ul::after{
     content: "\A * Final Season";
     font-size: 0.7rem;
     color: #999;
