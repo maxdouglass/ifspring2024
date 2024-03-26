@@ -1,59 +1,148 @@
 @font-face {
-    font-family: 'Queen-Fancy';
-    src: url('fonts/fleurish.ttf');
+    font-family: 'cocacola';
+    src: url('fonts/LOKICOLA.TTF');
 }
 
-@font-face {
-    font-family: 'Queen-Basic';
-    src: url('fonts/BODONI.TTF');
+a{
+    text-decoration: none;
 }
 
-body{
-    font-family: 'Queen-Basic';
-    margin: 0;
-    padding: 0;
-}
 
-header{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 3%;
-    height: 25%;
-    background-color: #19141A;
-    display: flex;
-    align-items: center;
-    margin-bottom: 5%;
-}
-
-a:link, a:visited, header{
+/* Coca-Cola Button */
+a#btn_cocacola {
+    height: 50px;
+    padding: 10px 20px 0px 20px;
+    display: inline-block;
+    font-family: 'cocacola';
     color: white;
-    font-size: 26px;
+    font-size: 40px;
+    border-radius: 40px;
+    background-color: #F40000;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+a#btn_cocacola:hover{
+    background-color: white;
+    color: #F40000;
+    border: 1px solid black;
+}
+
+a#btn_cocacola:active{
+    background-color: lightgray;
+    color: #F40000;
+    border: 1px solid black;
 }
 
 
 
-.info{
-    margin-right: 3%;
+/* Michael Kors Button */
+a#btn_mk {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    margin-top: 80px;
+    position: relative;
+    overflow: hidden; 
+    transition: background-color 0.5s; 
 }
 
-main{
-    font-size: 20px;
-    padding-left: 3%;
+a#btn_mk::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; 
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%);
+    transition: all 1s;
 }
 
-img{
-    margin-right: 2%;
-    height: 15%;
-    width: 15%;
+a#btn_mk:hover::before {
+    left: 100%; 
+    transition: all 1s;
 }
 
-.lyrics-section{
-    margin-bottom: 7vh;
-    padding-bottom: 7vh;
-    border-bottom: 1.5px solid #19141A;
+/* Lyft Button */
+a#btn_lyft {
+    color: white;
+    background-color: #FF00BF;
+    padding: 10px 30px 10px 30px;
+    display: inline-block;
+    margin-top: 65px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden; 
+    transition: background-color 0.5s; 
 }
 
-.section-title{
-    font-size: 34px;
-    font-family: "Queen-Fancy";
+a#btn_lyft:hover {
+    color: #FF00BF;
+    background-color: white;
+    border: #FF00BF 1px solid;
+}
+
+.fa-lyft {
+    font-size: 50px;
+    margin-right: 15px;
+}
+
+.fa-car-side {
+    font-size: 30px;
+    transform: translate(0, -30%); 
+    transition: transform 0.5s ease; 
+}
+
+@keyframes driveOff {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100px); 
+    }
+}
+
+a#btn_lyft:active .fa-car-side {
+    animation: driveOff 0.5s forwards; 
+
+}
+
+/* Samsung Button */
+a#btn_samsung {
+    /* Add your styles here */
+}
+
+/* Cartoon Network Button */
+a#btn_cartoon-network {
+    /* Add your styles here */
+}
+
+/* Bissingers Button */
+a#btn_bissingers {
+    /* Add your styles here */
+}
+
+/* Tucker Allen Button */
+a#tuckerallen {
+    /* Add your styles here */
+}
+
+/* Facebook Button */
+a#btn_facebook {
+    /* Add your styles here */
+}
+
+/* Nike Button */
+a#btn_Nike {
+    /* Add your styles here */
+}
+
+/* Craigslist Button */
+a#btn_craigslist {
+    /* Add your styles here */
 }
