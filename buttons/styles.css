@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'cocacola';
+    src: url('fonts/LOKICOLA.TTF');
+}
+
+a{
+    text-decoration: none;
+}
+
+
+a#btn_cocacola {
+    height: 50px;
+    padding: 10px 20px 0px 20px;
+    display: inline-block;
+    font-family: 'cocacola';
+    color: white;
+    font-size: 40px;
+    border-radius: 40px;
+    background-color: #F40000;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+a#btn_cocacola:hover{
+    background-color: white;
+    color: #F40000;
+    border: 1px solid black;
+}
+
+a#btn_cocacola:active{
+    background-color: lightgray;
+    color: #F40000;
+    border: 1px solid black;
+}
+
+
+
+a#btn_mk {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    margin-top: 80px;
+    position: relative;
+    overflow: hidden; 
+    transition: background-color 0.5s; 
+}
+
+a#btn_mk::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; 
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%);
+    transition: all 1s;
+}
+
+a#btn_mk:hover::before {
+    left: 100%; 
+    transition: all 1s;
+}
+
+/* Lyft Button */
+a#btn_lyft {
+    color: white;
+    background-color: #FF00BF;
+    padding: 10px 30px 10px 30px;
+    display: inline-block;
+    margin-top: 65px;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden; 
+    transition: background-color 0.5s; 
+}
+
+a#btn_lyft:hover {
+    color: #FF00BF;
+    background-color: white;
+    border: #FF00BF 1px solid;
+}
+
+.fa-lyft {
+    font-size: 50px;
+    margin-right: 15px;
+}
+
+.fa-car-side {
+    font-size: 30px;
+    transform: translate(0, -30%); 
+    transition: transform 0.5s ease; 
+}
+
+@keyframes driveOff {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100px); 
+    }
+}
+
+a#btn_lyft:active .fa-car-side {
+    animation: driveOff 0.5s forwards; 
+
+}
+
+a#btn_samsung {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: #1428A0;
+    padding: 7px 15px 7px 15px;
+    display: inline-block;
+    margin-top: 80px;
+    border-radius: 60px;
+}
+
+a#btn_samsung:hover {
+    color: black;
+    border: #1428A0 1px solid;
+    background-color: white;
+}
+
+
+a#btn_cartoon-network .n{
+    display: inline-block;
+    font-size: 50px;
+    background-color: white;
+    color: black;
+    padding: 5px 20px 5px 20px;
+    margin-top: 80px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 600;
+}
+
+a#btn_cartoon-network .c{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    display: inline-block;
+    margin-top: 80px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 600;
+}
+
+a#btn_bissingers {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    padding: 5px 15px 10px 15px;
+    display: inline-block;
+    margin-top: 80px;   
+    color: black; 
+    border: gold 2px solid;
+}
+
+a#btn_bissingers:hover {
+    transform: scale(1.20); 
+    transition: transform 0.25s ease-in-out, color 0.5s;
+    color: gold;
+    font-style: italic;
+    background-color: black;
+}
+
+a#apple {
+    font-size: 130px;
+    color: silver;
+    margin-top: 30px;
+    display: inline-block;
+    position: relative; 
+    overflow: hidden; 
+    transition: color 0.5s; 
+}
+
+a#apple::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; 
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%);
+    transition: all 1s;
+}
+
+a#apple:hover::before {
+    left: 100%; 
+    transition: all 1s;
+}
+
+
+a#btn_facebook {
+    font-size: 120px;
+    display: inline-block;
+    margin-top: 30px;
+    color: #1877F2;
+}
+
+a#btn_facebook:hover {
+    color: #1876f2cb;
+}
+
+a#btn_Nike {
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 900;
+    display: inline-block;
+    margin-top: 100px;
+    color: black;
+    position: relative;
+    overflow: hidden; 
+    background-color: transparent;
+}
+
+a#btn_Nike::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background: linear-gradient(90deg, transparent 0%, #FFF 50%, transparent 100%);
+    transition: all 0.75s ease; 
+    opacity: 0.5; 
+}
+
+a#btn_Nike:hover::after {
+    left: 100%;
+}
+
+a#btn_Nike:hover {
+    transform: scale(1.05); 
+    transition: transform 0.25s ease-in-out, color 0.5s;
+}
+
+
+a#btn_craigslist {
+    font-size: 40px;
+    color: blue;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+a#btn_craigslist:hover {
+    text-decoration: underline;
+}
+
+a#btn_craigslist:active {
+    color: purple;
+}
