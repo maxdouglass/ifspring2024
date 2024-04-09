@@ -1,0 +1,153 @@
+html{
+    font-family: "Fredoka", sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    top: 0;
+    position: sticky;
+    margin: 0;
+    font-weight: 900;
+    background-color: #F2F6AB;
+    text-align: center;
+    z-index: 10;
+}
+
+h1{
+    margin: 0;
+    color: #F0CFEB;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+    /* -webkit-text-stroke: 1.5px #5B3791; */
+    font-size: 40px;
+    text-shadow:
+    1px 1px 0 #5B3791,
+    -1px 1px 0 #5B3791,
+    -1px -1px 0 #5B3791,
+    1px -1px 0 #5B3791;
+
+}
+
+
+#bee{
+    color: #CEC9EC;
+}
+
+#puppycat{
+    color: #F0CFEB;
+}
+
+#and{ 
+    color: #5FAEE1;
+}
+
+main{
+    display: flex;
+}
+
+.images-left, .images-right {
+    width: 15%;
+    height: auto; 
+    background-size: contain;
+}
+
+.images-left{
+    background-image: url('side-grid1.jpg');
+}
+
+.images-right{
+    background-image: url('side-grid2.jpg');
+}
+
+.content-middle{
+    width: 70%;
+    text-align: center;
+    padding: 80px 40px 80px 40px;
+    font-size: 20px;
+}
+
+
+footer{
+    background-color: #F0CFEB;
+    border-top: 2px #5B3791 solid;
+    padding: 15px 15vw 15px 15vw;
+    display: flex;
+}
+
+footer p {
+    margin-right: 40px;
+}
+
+footer a{
+    color: black;
+}
+
+.character-card img{
+    width: 100%;
+}
+
+.character-card{
+    height: 600px;
+    width: 27%;
+    padding: 30px 30px 30px 30px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 20px;
+}
+
+.streaming{
+    display: flex;
+    width: 80%;
+    padding: 10px 10% 10px 10% ;
+    justify-content: space-evenly;
+}
+
+.streaming img{
+    height: 100px;
+}
+
+
+@media (max-width: 768px) {
+    .character-card {
+        width: 40%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .character-card {
+        width: 90%;
+    }
+}
+
+.creator-section img{
+    border-radius: 5000px;
+}
+
+.character-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.streaming-options{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-left: 10%;
+    justify-content: space-evenly;
+}
+
+.streaming-options img{
+    height: 300px;
+}
+
+
